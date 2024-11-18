@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="/style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/vm.jpg">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hola, I am <strong>Vikas Singh Manhas</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Web developer</p>
+            <img src="images/my-2.jpg" class="intro__img">
+        </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3><a href="https://blackkkjackkkgame.netlify.app/">BlackJack Game</a></h3>
+                    <p>Created a simulating the classic card game experience. The game features interactive gameplay,
+                        intuitive controls, and accurate scoring, providing users with a fun and engaging way to test
+                        their strategy and luck. Designed with sleek visuals and a user-friendly interface for all skill
+                        levels.</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3 class="urllink"><a href="https://reactiontesterweb.netlify.app/">Reaction Tester</a></h3>
+                    <p>Developed an interactive Reaction Tester Game to measure and improve user response times. The
+                        game features dynamic visuals, real-time scoring, and engaging mechanics to test reflexes and
+                        track progress. Designed with an intuitive interface for an enjoyable and competitive user
+                        experience.</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3 class="urllink"><a href="https://happiebirthdayy.netlify.app/">Birthday Vault</a></h3>
+                    <p>A personalized app designed to securely store and celebrate birthdays. Users can add their name
+                        and birthdate, receive reminders, and explore unique birthday-related features. Built with a
+                        focus on simplicity and a user-friendly interface, the app ensures important dates are never
+                        forgotten, making celebrations seamless and special.</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3 class="urllink"><a href="https://lead-tracker-web-app.netlify.app/">Lead Tracker</a></h3>
+                    <p>Developed a Lead Tracker Extension to efficiently save and manage important URLs for future use.
+                        The app allows users to add, categorize, and access links seamlessly, ensuring quick reference
+                        and organization. Designed with a clean and intuitive interface to enhance productivity and
+                        streamline lead tracking.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">HTML | CSS | JAVASCRIPT | REACT |
+                NEXTJS | PHP | MYSQL | POWERBI</p>
+
+            <div class="about-me__body">
+                <p>I am a passionate and driven web developer with expertise in designing and developing
+                    creative, functional, and user-friendly solutions. With a strong foundation in Javascript, NextJS, I
+                    thrive in creating applications that solve real-world problems.</p>
+                <p>I recently earned my B.Tech in computer science, and I have practical experience creating a variety
+                    of projects, such as productivity tools, games, and web apps. In order to keep ahead in the rapidly
+                    changing IT industry, I like investigating cutting-edge technology and always honing my craft.
+                </p>
+                <p>When I'm not coding, I enjoy playing football, learning new languages, being in shape, and going on
+                    new adventures—all of which promote harmony and inspiration in my life.
+                </p>
+            </div>
+
+            <img src="images/my-0.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://blackkkjackkkgame.netlify.app/" class="portfolio__item">
+                    <img src="images/blackjack.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="https://reactiontesterweb.netlify.app/" class="portfolio__item">
+                    <img src="images/Reaction tester.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="https://happiebirthdayy.netlify.app/" class="portfolio__item">
+                    <img src="images/Birth Vault.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 04 -->
+                <a href="https://lead-tracker-web-app.netlify.app/" class="portfolio__item">
+                    <img src="images/Lead Tracker.png" alt="" class="portfolio__img">
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:vikumanhas7@gmail.com" class="footer__link">vikumanhas7@gmail.com</a>
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </footer>
+
+
+        <script src="/index.js"></script>
+
+    </body>
+
+</html>
